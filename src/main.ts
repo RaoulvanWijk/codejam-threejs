@@ -1,5 +1,3 @@
-import './style.css'
-
 import * as THREE from 'three';
 
 const scene = new THREE.Scene();
@@ -10,12 +8,18 @@ renderer.setSize( window.innerWidth, window.innerHeight );
 renderer.setAnimationLoop( animate );
 document.body.appendChild( renderer.domElement );
 
-const geometry = new THREE.BoxGeometry( 1, 1, 1 );
-const material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
+const geometry = new THREE.BoxGeometry(1, 1, 1);
+const material = new THREE.MeshPhongMaterial( { color: 0x44aa88 } );
 const cube = new THREE.Mesh( geometry, material );
 scene.add( cube );
 
-camera.position.z = 5;
+const color = 0xFFFFFF;
+const intensity = 5;
+const light = new THREE.DirectionalLight(color, intensity);
+light.position.set(-1, 2, 10);
+scene.add(light);
+
+camera.position.z = 10;
 
 function animate() {
 
