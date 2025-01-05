@@ -11,3 +11,7 @@ The project uses Vite with Typescript and Vanilla html and css
 - Clone this repository
 - run `npm install`
 - run `npm run dev`
+
+## Download 3d models
+https://sketchfab.com/tags/threejs
+
