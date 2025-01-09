@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    min-height: 900vh;
+    min-width: 100vw;
+    position: relative;
+}
+
+canvas {
+    position: sticky;
+    inset: 0 0 0 0;
+}

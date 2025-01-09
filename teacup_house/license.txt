@@ -1,0 +1,11 @@
+Model Information:
+* title:	Teacup House
+* source:	https://sketchfab.com/3d-models/teacup-house-a9a4d881c4f6458394e4fe66fc575216
+* author:	Voxelcubes Studios (https://sketchfab.com/voxelcubes)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Teacup House" (https://sketchfab.com/3d-models/teacup-house-a9a4d881c4f6458394e4fe66fc575216) by Voxelcubes Studios (https://sketchfab.com/voxelcubes) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
